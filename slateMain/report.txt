@@ -1,0 +1,99 @@
+<html>
+<head>
+<style>
+html{font-family: arial, sans-serif }
+table#A {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  height: 150px; width:700px; border-color: black;background-color:#f1f1f1; float: left;
+
+}
+table#B {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  height: 75px; width:700px; border-color: black;background-color:#f1f1f1; float: left;
+}
+table#C {
+  font-family: arial, sans-serif;
+  height: 200px; width:700px;
+}
+td{
+  width: 700px;padding: 2px;font-size:18px;font-weight:bold; border: 1px solid
+}
+tr{
+  border-color: black; text-align: center;
+}
+th{ height:100px;width: 225px; border-color: black; text-align: center; vertical-align: center;font-size:30px;padding:5px}
+</style>
+</head>
+
+<p><img src="C:\Users\vikash.patel\Pictures\onx.png" alt="" width="1000" height="125" /></p>
+
+<h1 style="text-align: left;"><strong><span style="background-color: #ffff99; color: #ff6600;">Test Summary Report</span></strong></h1>
+<h2>Environment</h2>
+<div style="height: 200px; width=100%;">
+<table id="A">
+	<tbody>
+	<tr>
+		<td>Plateform</td>
+		<td>Windows-10-10.0.17763-SP0</td>
+	</tr>
+	<tr>
+		<td>Browser</td>
+		<td>test1</td>
+	</tr>
+	<tr>
+		<td>test1</td>
+		<td>test1</td>
+	</tr>
+	<tr>
+		<td>test1</td>
+		<td>test1</td>
+	</tr>
+	<tr>
+		<td>test1</td>
+		<td>test1</td>
+	</tr>
+	</tbody>
+</table>
+</div>
+
+<h2>Summary</h2>
+<div style="height: 50px; width=100%;">
+<table id="B">
+        <tr >
+			<td>Total Testcases Executed</td>
+			<td>#total</td>
+		</tr>
+	    <tr >
+			<td>Total Execution Time( in Secs)</td>
+			<td>#et</td>
+		</tr>
+		<tr>
+			<td>Test Execution Started </td>
+			<td>#time</td>
+		</tr>
+</table>
+</div>
+<br></br>
+<div style="style="height: 200px; width=100%;">
+<table id="C">
+<tbody>
+	<tr>
+		<th style="background-color: mediumspringgreen;" >Passed <br>#passed</th>
+		<th style="background-color: orange; ">Skipped <br>#skipped</th>
+		<th style="background-color: gold;">Expected Failures<br>#ef</th>
+	</tr>
+	<tr>
+		<th style="background-color: tomato;">Failed <br>#failed</th>
+		<th style="background-color: salmon;" >Error <br>#error</th>
+		<th style="background-color: lime;">Unxpected Passed<br>#ep</th>
+	</tr>
+</tbody>
+</table>
+</div>
+
+
+<h4> For Detailed Report Use This Link        <a href="https://127.0.0.1:8000">REPORT LINK </a></h4>
+<h4> For Any Inquiry/Concerns About This Report, Please Send Us <a href="mailto:Vikash.Patel@onx.com">Email</a><h4>
+</html>
