@@ -1,0 +1,26 @@
+
+class mainPage:
+    whoWeAre = 'li[class*="menu-item"] a[href="/who-we-are"]'
+    printBtn = 'a[class="gsc-button btn-print  medium "]'
+    meetTheTeam = 'li[class*="menu-item"] a[href="/meet-the-team"]'
+    joinOcheTeam = 'li[class*="menu-item"] a[href="/join-the-oche-team"]'
+    howWeHelp = 'li[class*="menu-item"] a[href="/how-we-help"]'
+    questions = 'li[class*="menu-item"] a[href="/questions"]'
+    ocheApproach = 'li[class*="menu-item"] a[href="/how-we-help/oche-approach"]'
+    resources = 'li[class*="menu-item"] a[href="/resources"]'
+    testimonials = 'a[href="/testimonials"]'
+    whoIsVulnerable = 'a[href="/vulnerable"]'
+    newsReports = 'a[href="/news-and-reports"]'
+    ocheBrochures = 'a[href="/news-category/oche-brochures"]'
+    presentations= 'a[href="/news-category/presentation"]'
+    reports = 'a[href="/news-category/reports"]'
+    termsOfReference = 'a[href="/news-category/terms-of-reference"]'
+    outreach = 'a[href="/outreach"]'
+    media = 'a[href="/media"]'
+    events = 'a[href="/events"]'
+    contactUs = 'a[href="/contact"]'
+    requestReferral = 'a[href*="/request-referral"]'
+    accessibility = 'a[href="/accessibility"]'
+    privacyPolicy = 'a[href="/privacy-policy"]'
+
+
