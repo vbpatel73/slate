@@ -29,7 +29,7 @@ smoke = pytest.mark.smoke
 regression = pytest.mark.regression
 test = pytest.mark.test
 
-os.chdir("slateMain")
+#os.chdir("slateMain")
 
 
 def Click(driver,locator):
